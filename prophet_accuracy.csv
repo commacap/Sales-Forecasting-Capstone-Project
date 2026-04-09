@@ -1,0 +1,11 @@
+sku_id,sku_name,segment,MAPE(%)
+SKU0026,BrandB Chips,AY,3.2
+SKU0100,BrandD Toothpaste,AY,3.7
+SKU0092,BrandB Soap,AY,6.5
+SKU0018,BrandF Water,AY,7.2
+SKU0027,BrandC Chips,AZ,13.1
+SKU0099,BrandC Toothpaste,AZ,13.7
+SKU0050,BrandB Yogurt,CY,4.0
+SKU0073,BrandA Softener,CY,6.3
+SKU0065,BrandE Cheese,CZ,9.3
+SKU0086,BrandB Shampoo,CZ,15.6
