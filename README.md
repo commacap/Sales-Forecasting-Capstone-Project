@@ -1,4 +1,5 @@
-# 📦 FMCG Demand Forecasting
+# ABC-Analysis-Sales-Forecasting-Capstone-Project
+# FMCG Demand Forecasting
 ### From Raw Sales Data to a 52-Week Forecast — Solving Stockouts & Overstocks with Prophet
 
 ---
@@ -7,7 +8,7 @@
 
 ---
 
-## 🧭 The Problem
+## The Problem
 
 FMCG supply chain teams face a paradox that costs millions annually:
 
@@ -25,7 +26,7 @@ This project tackles all seven — through data analysis, SKU segmentation, and 
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 fmcg-demand-forecasting/
@@ -44,7 +45,7 @@ fmcg-demand-forecasting/
 
 ---
 
-## 📊 The Dataset
+## The Dataset
 
 | Property | Detail |
 |----------|--------|
@@ -53,13 +54,12 @@ fmcg-demand-forecasting/
 | Geography | 10+ countries |
 | Key features | `sku_id`, `sku_name`, `country`, `units_sold`, `gross_sales`, `list_price`, `promo_flag`, `temperature`, `rain_mm`, `weekofyear`, `year` |
 
-> **Why units sold?** Inventory decisions are made in units — not revenue. Units sold is a cleaner signal of true demand, unaffected by price changes or promotional discounting.
 
 > **Why weekly?** FMCG replenishment cycles are weekly. Forecasting at daily level would produce false precision that the ordering process cannot act on.
 
 ---
 
-## 🔬 Exercise 1: Understanding Market Dynamics
+## Exercise 1: Understanding Market Dynamics
 
 A structured exploration of demand drivers before any modelling begins.
 
@@ -102,7 +102,7 @@ Weekly, monthly, and yearly weather patterns visualised against demand — confi
 
 ---
 
-## 🤖 Exercise 2: Forecasting with Prophet
+##  Exercise 2: Forecasting with Prophet
 
 ### Why Prophet?
 
@@ -213,7 +213,7 @@ df['weekofyear_safe'] = df['weekofyear'].clip(upper=52)
 
 ---
 
-## 📁 Outputs
+##  Outputs
 
 | File | Description |
 |------|-------------|
@@ -224,7 +224,7 @@ df['weekofyear_safe'] = df['weekofyear'].clip(upper=52)
 
 ---
 
-## 🔭 What's Next
+##  What's Next
 
 This project establishes the forecasting foundation. Natural next steps:
 
@@ -236,7 +236,7 @@ This project establishes the forecasting foundation. Natural next steps:
 
 ---
 
-## 🧱 Tech Stack
+##  Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat&logo=python&logoColor=white)
 ![Prophet](https://img.shields.io/badge/Prophet-Meta-0668E1?style=flat)
@@ -246,10 +246,9 @@ This project establishes the forecasting foundation. Natural next steps:
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational and portfolio purposes.
 
----
 
-*Built as part of an FMCG Supply Chain Analytics project. Feedback and contributions welcome.*
+*Built as part of an FMCG Supply Chain Analytics project at Everything Data Africa. Feedback and contributions welcome.*
